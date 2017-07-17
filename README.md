@@ -18,3 +18,5 @@ DbLinq is THE LINQ provider that allows to use common databases with an API clos
  * 2007-June: Thanks to Bryan, we have the first release.
  * 2007-May: Added support for PostgreSQL and MS SQL.
 
+Log: For MySql, Setting cmd
+DbMetal.exe -provider=MySql -database:babytree -server:127.0.0.1 -user:root -password:root -namespace:Xnovae -code:BabyTree.cs -sprocs
